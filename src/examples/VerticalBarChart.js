@@ -14,7 +14,7 @@ const prefetchData = prefetch([
 
 const VerticalBarChart = ({ data }) => {
   const config = {
-    title: 'Tradezi',
+    title: 'Daily revenue',
     mode: 'vertical',
     data,
     style: {

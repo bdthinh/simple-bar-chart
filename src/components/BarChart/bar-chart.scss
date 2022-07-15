@@ -44,6 +44,13 @@
       position: relative;
       margin: 0 0 6px 6px;
 
+      &::before {
+        content: '0';
+        position: absolute;
+        left: -5%;
+        top: -5%;
+      }
+
       .bar-value {
         margin-top: 6px;
         margin-bottom: 0px;
@@ -137,6 +144,13 @@
       grid-auto-rows: 1fr;
       position: relative;
       margin: 0 0 6px 6px;
+
+      &::before {
+        content: '0';
+        position: absolute;
+        right: -5%;
+        bottom: -5%;
+      }
 
       .bar-value {
         margin-right: 6px;

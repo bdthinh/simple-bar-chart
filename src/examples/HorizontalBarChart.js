@@ -14,7 +14,7 @@ const prefetchData = prefetch([
 
 const HorizontalBarChart = ({ data }) => {
   const config = {
-    title: 'Tradezi',
+    title: 'Daily revenue',
     mode: 'horizontal',
     data,
     style: {
